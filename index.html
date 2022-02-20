@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!--======== HEADER ========-->
+    <header class="header" id="header">
+      <nav class="nav container padd-15">
+        <h1 class="nav__logo">Port<span>folio</span></h1>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="fas fa-home nav__icon" title="Home"></i>
+                <span class="nav__name">Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i
+                  class="fas fa-user nav__icon"
+                  title="
+                  About"
+                ></i>
+                <span class="nav__name">About</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="fas fa-briefcase nav__icon" title="Services"></i>
+                <span class="nav__name">Services</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="fas fa-book nav__icon" title="Contact"></i>
+                <span class="nav__name">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme change button -->
+        <i class="fas fa-moon change__theme" id="theme-button"></i>
+      </nav>
+    </header>
+    <main>
+      <!--=============== HOME SECTION  ===============-->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__name">Kaung Myat Hein</h1>
+            <h3 class="home__text">I'm a Frontend <span>Developer</span></h3>
+            <ul class="social-icons">
+              <li>
+                <a href="https://www.facebook.com/kgmyat.hein201"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/invites/contact/?i=10jn4cdtg24tb&utm_content=2uxj8p9"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/KgMyat-201"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+            </ul>
+            <a href="#about" class="home__btn">About Me</a>
+            <!-- scroll down mouse wheel -->
+            <div class="scroll-down">
+              <a href="#about" class="mouse-wrapper">
+                <span>Scroll Down</span>
+                <span class="mouse">
+                  <span class="wheel"></span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <img
+            src="assets/img/Profile-1.png"
+            alt="Profile-img"
+            class="home__img"
+          />
+          <!-- color  -->
+          <div class="control">
+            <div class="widget" title="Colors">
+              <i class="fas fa-fire-alt"></i>
+            </div>
+
+            <div class="colors">
+              <span style="background: #2b4077"></span>
+              <span style="background: #814646"></span>
+              <span style="background: #20888b"></span>
+              <span style="background: #ac9a6a"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== ABOUT SECTION  ===============-->
+
+      <section class="about section" id="about">
+        <h1 class="section__title">About Me</h1>
+        <div class="about__container container padd-15 grid">
+          <div class="about__details">
+            <div class="row">
+              <div class="left">
+                <h2 class="heading">Web Development</h2>
+
+                <div class="progress-left">
+                  <p>HTML <span>90%</span></p>
+                  <div class="left-bar"><span class="html"></span></div>
+                </div>
+                <div class="progress-left">
+                  <p>CSS <span>80%</span></p>
+                  <div class="left-bar"><span class="css"></span></div>
+                </div>
+                <div class="progress-left">
+                  <p>Javascript <span>70%</span></p>
+                  <div class="left-bar"><span class="javascript"></span></div>
+                </div>
+              </div>
+              <div class="right">
+                <h2 class="heading">UI/UX Design</h2>
+
+                <div class="progress-right">
+                  <p>Adobe XD <span>50%</span></p>
+                  <div class="right-bar"><span class="adobe"></span></div>
+                </div>
+                <div class="progress-right">
+                  <p>Photoshop <span>60%</span></p>
+                  <div class="right-bar"><span class="photoshop"></span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about__text">
+              <h2 class="about__title">Who I am</h2>
+
+              <p>
+                <span>Hello,</span>
+                My name is Kaung Myat Hein. I am a developer and also a
+                designer. If you have Project or if you want make a software for
+                your business contact me. <br />
+                I make as soon as possible.
+              </p>
+
+              <!-- button -->
+              <div class="btn">
+                <a
+                  href="https://drive.google.com/file/d/15v2c9tbiCfFEjYV2Q1tasSJo-YMFhNPX/view?usp=sharing"
+                  class="btn__cv"
+                  >Download CV</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Services ===============-->
+      <section class="services section" id="services">
+        <div class="container grid">
+          <div class="service__container">
+            <h1 class="section__title">Services</h1>
+            <div class="row">
+              <div class="service">
+                <img src="assets/img/service-1.svg" alt="" />
+                <h3>UI/UX design</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, quae?
+                </p>
+              </div>
+              <div class="service">
+                <img src="assets/img/service-2.svg" alt="" />
+                <h3>Web Development</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, quae?
+                </p>
+              </div>
+              <div class="service">
+                <img src="assets/img/service-3.svg" alt="" />
+                <h3>Photography</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi, quae?
+                </p>
+              </div>
+            </div>
+            <div class="text">
+              <p>
+                Looking for a custom job? <a href="#contact">Click here</a> to
+                contact me! 👋
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__container container">
+          <!-- section title -->
+          <h1 class="portfolio-title">Recent Work</h1>
+          <div class="row">
+            <div class="portfolio-filter">
+              <div class="portfolio-filter-inner">
+                <button type="button" class="active" data-filter="all">
+                  All
+                </button>
+                <button type="button" data-filter="web">Web</button>
+                <button type="button" data-filter="creative">Creative</button>
+                <button type="button" data-filter="design">Design</button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- portfolio item -->
+            <div class="portfolio-item" data-category="web">
+              <div class="portfolio-item-inner">
+                <div class="portfolio-item-thumbnail">
+                  <img src="assets/img/1.svg" alt="" class="portfolio-img" />
+                </div>
+                <span class="term">Web , design</span>
+                <h3 class="portfolio-item-title">Project Management</h3>
+                <span class="more-button">&hellip;</span>
+              </div>
+            </div>
+            <!-- portfolio item -->
+            <div class="portfolio-item" data-category="creative">
+              <div class="portfolio-item-inner">
+                <div class="portfolio-item-thumbnail">
+                  <img src="assets/img/2.svg" alt="" class="portfolio-img" />
+                </div>
+                <span class="term">Creative</span>
+                <h3 class="portfolio-item-title">Onboarding Motivation</h3>
+                <span class="more-button">&hellip;</span>
+              </div>
+            </div>
+            <!-- portfolio item -->
+            <div class="portfolio-item" data-category="design">
+              <div class="portfolio-item-inner">
+                <div class="portfolio-item-thumbnail">
+                  <img src="assets/img/3.svg" alt="" class="portfolio-img" />
+                </div>
+                <span class="term">Art , design</span>
+                <h3 class="portfolio-item-title">iMac Mockup Design</h3>
+                <span class="more-button">&hellip;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== Services ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <h1 class="contact-title">Contact Me</h1>
+          <div class="content">
+            <div class="contentInfo padd-15">
+              <div class="box">
+                <div class="icon"><i class="fas fa-map"></i></div>
+                <div class="textInfo">
+                  <h3>Address</h3>
+                  <p>
+                    No.(1370), Htuparyone (10)st, Tharkayta Township, Yangon.
+                  </p>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon"><i class="fas fa-phone"></i></div>
+                <div class="textInfo">
+                  <h3>Phone</h3>
+                  <a> +959751073739 </a>
+                </div>
+              </div>
+              <div class="box">
+                <div class="icon">
+                  <i class="fas fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="textInfo">
+                  <h3>Email</h3>
+                  <a> kgmyat1846@gmail.com </a>
+                </div>
+              </div>
+            </div>
+            <div class="contactForm">
+              <form action="">
+                <div class="inputBox">
+                  <input type="text" required /><span>Name</span>
+                </div>
+                <div class="inputBox">
+                  <input type="text" required /><span>Email</span>
+                </div>
+                <div class="inputBox">
+                  <input type="text" required /><span>Subject</span>
+                </div>
+                <div class="inputBox">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="20"
+                    rows="10"
+                    required
+                  ></textarea
+                  ><span>Type your message...</span>
+                </div>
+              </form>
+              <div class="button-area">
+                <button type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer section start -->
+    <footer>
+      <span
+        >Created By <a href="https://www.kgmyat1846@gmail.com">KgMyat</a> |
+        <span class="fas fa-copyright"></span> 2022. All rights reserved.</span
+      >
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
