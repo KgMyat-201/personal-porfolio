@@ -66,6 +66,9 @@
   padding: 0;
   margin: 0;
 }
+*::before::after{
+box-sizing: border-box;
+}
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -329,13 +332,12 @@ main {
   justify-content: center;
   margin-bottom: 0.3rem;
   margin-top: 0.75rem;
-  cursor: pointer;
 }
 .social-icons li {
   padding: 1rem;
 }
 .social-icons li a {
-  font-size: 20px;
+  font-size: 23px;
   display: inline-block;
   cursor: pointer;
   outline: none;
@@ -355,12 +357,16 @@ main {
   width: 100%;
 }
 .mouse-wrapper {
-  font-size: var(--small-font-size);
+  
   display: block;
   margin: auto;
   max-width: 100px;
   text-align: center;
   transition: all 0.2s;
+}
+.mouse span{
+display: block;
+font-size: var(--small-font-size);
 }
 .mouse {
   box-shadow: var(--box-shadow);
