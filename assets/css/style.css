@@ -366,8 +366,8 @@ main {
   box-shadow: var(--box-shadow);
   border: var(--border);
   display: block;
-  height: 2rem;
-  width: 1.5rem;
+  height: 1.75rem;
+  width: 1.75rem;
   margin: auto;
   margin-top: 1rem;
   border-radius: 50%;
@@ -377,7 +377,7 @@ main {
   background-color: var(--black);
   border-radius: 50%;
 
-  width: 0.25rem;
+  width: 0.5rem;
   height: 0.5rem;
   position: absolute;
   top: 0.5rem;
