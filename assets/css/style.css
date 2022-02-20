@@ -416,7 +416,7 @@ main {
 .control {
   position: fixed;
   right: -3.5rem;
-  top: 25%;
+  top: 20%;
   transition: all 300ms ease-in-out;
   z-index: var(--z-model);
 }
