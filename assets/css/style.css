@@ -367,7 +367,7 @@ main {
   border: var(--border);
   display: block;
   height: 1.75rem;
-  width: 1.75rem;
+  width: 1rem;
   margin: auto;
   margin-top: 1rem;
   border-radius: 50%;
@@ -376,8 +376,7 @@ main {
 .mouse .wheel {
   background-color: var(--black);
   border-radius: 50%;
-
-  width: 0.5rem;
+  width: 0.25rem;
   height: 0.5rem;
   position: absolute;
   top: 0.5rem;
