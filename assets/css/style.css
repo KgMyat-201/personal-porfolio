@@ -217,10 +217,9 @@ main {
   display: flex;
   text-align: center;
   margin: 0 2px;
-  padding: 5px 8px;
-  border-radius: 30px;
+  padding: 0.4rem;
+  border-radius: 50px;
   display: inline-block;
-
   transform: perspective(1px) translateZ(0);
 }
 .nav__link:hover {
@@ -232,7 +231,7 @@ main {
 }
 .nav__icon {
   display: none;
-  font-size: var(--smaller-font-size);
+  font-size: var(--normal-font-size);
 }
 .nav__name {
   font-size: var(--small-font-size);
@@ -248,7 +247,7 @@ main {
   border: var(--border);
   box-shadow: var(--box-shadow);
   background-color: var(--bg-color);
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   cursor: pointer;
   display: inline-block;
   transform: perspective(1px) translateZ(0);
@@ -299,11 +298,11 @@ main {
 }
 
 .home__text {
-  font-family: var(--body-font);
-  font-weight: var(--font-medium);
   font-style: italic;
+  font-weight: var(--font-medium);
 }
 .home__text span {
+  font-weight: var(--font-semi-bold);
   color: var(--container-color);
 }
 .home__btn {
@@ -329,13 +328,13 @@ main {
   text-align: center;
   justify-content: center;
   margin-bottom: 0.3rem;
+  margin-top: 0.75rem;
   cursor: pointer;
 }
 .social-icons li {
   padding: 1rem;
 }
 .social-icons li a {
-position: relative;
   font-size: 20px;
   display: inline-block;
   cursor: pointer;
@@ -370,7 +369,7 @@ position: relative;
   height: 2rem;
   width: 1.5rem;
   margin: auto;
-  margin-top: 0.75rem;
+  margin-top: 1rem;
   border-radius: 50%;
   position: relative;
 }
@@ -731,11 +730,12 @@ position: relative;
   justify-content: center;
   margin-bottom: 3rem;
   margin-top: 3rem;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi-bold);
+  font-size: var(--small-font-size);
 }
 .service__container .text a {
   text-decoration: underline;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
 }
 .service__container .text a:hover {
   color: var(--container-color);
@@ -903,7 +903,6 @@ position: relative;
   font-size: var(--normal-font-size);
 }
 .content .contentInfo .box .textInfo h3 {
-  font-weight: var(--font-semi-bold);
   color: var(--container-color);
 }
 .content .contentInfo .box .textInfo a {
@@ -1018,6 +1017,7 @@ footer span a:hover {
     justify-content: center;
     text-align: center;
   }
+
   .about__container .row {
     flex-direction: column;
   }
@@ -1073,9 +1073,13 @@ footer span a:hover {
   .home__data {
     margin-top: 2rem;
   }
+  .home__btn {
+    display: none;
+  }
   /* --------   Show Minium Media Screen    --------- */
   .scroll-down {
     display: block !important;
+    margin-top: 2rem;
   }
   .about__text {
     padding: 1rem 1.5rem;
