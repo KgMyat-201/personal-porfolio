@@ -934,21 +934,19 @@ main {
 .contactForm .inputBox input {
   padding: 10px 0;
 }
-.contactForm .inputBox input,
+.contactForm .inputBox input[type=text],
 .contactForm .inputBox textarea {
+box-sizing: border-box;
   resize: none;
   width: 100%;
   margin: 8px 0;
+padding: 8px;
   color: var(--black);
   background-color: transparent;
   box-shadow: var(--box-shadow);
   border-radius: 5px;
   border: none;
   outline: none;
-}
-
-input[type=text], textarea {
-padding: 0 5px;
 }
 .contactForm .inputBox span {
   position: absolute;
