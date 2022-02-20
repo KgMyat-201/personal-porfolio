@@ -946,6 +946,10 @@ main {
   border: none;
   outline: none;
 }
+
+input[type=text], textarea {
+padding: 0 5px;
+}
 .contactForm .inputBox span {
   position: absolute;
   left: 0;
