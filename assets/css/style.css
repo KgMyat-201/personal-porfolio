@@ -335,6 +335,7 @@ main {
   padding: 1rem;
 }
 .social-icons li a {
+position: relative;
   font-size: 20px;
   display: inline-block;
   cursor: pointer;
