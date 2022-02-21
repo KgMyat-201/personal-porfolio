@@ -948,24 +948,7 @@ padding: 8px;
   border: none;
   outline: none;
 }
-.contactForm .inputBox span {
-  position: absolute;
-  left: 0;
-  padding: 8px;
-  margin: 5px 0;
-  font-size: var(--small-font-size);
-  pointer-events: none;
-  transition: 0.5s;
-  color: var(--black);
-}
-
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span {
-  color: var(--bg-color);
-  margin: 0 10px;
-}
+ 
 .contactForm .button-area {
   position: relative;
   height: 40px;
