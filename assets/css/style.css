@@ -844,7 +844,7 @@ main {
  */
 .contact__container {
   width: 100%;
-  min-height: 100vh;
+  height: auto;
 }
 .contact__container .contact-title {
   position: relative;
