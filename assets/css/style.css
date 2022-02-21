@@ -1064,6 +1064,7 @@ footer span a:hover {
   .home__container {
     flex-direction: column-reverse;
     margin-top: 3rem;
+    margin-bottom: 1rem;
   }
   .home__img {
     width: 150px;
