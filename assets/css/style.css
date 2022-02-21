@@ -367,8 +367,9 @@ main {
 }
 .mouse-wrapper {
   display: block;
+  cursor: pointer;
   margin: auto;
-  max-width: 100px;
+  max-width: 80px;
   text-align: center;
   transition: all 0.2s;
 }
