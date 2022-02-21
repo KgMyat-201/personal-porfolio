@@ -283,6 +283,7 @@ main {
   justify-content: space-evenly;
   text-align: center;
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .home__img {
   position: relative;
