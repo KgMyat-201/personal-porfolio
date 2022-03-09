@@ -652,9 +652,7 @@ main {
 }
 .about__text {
   position: relative;
-
   font-family: var(--body-font);
-  font-size: var(--small-font-size);
   padding: 1rem 2.5rem;
 }
 .about__title {
@@ -664,6 +662,7 @@ main {
   margin-top: 0.5rem;
 }
 .about__text p {
+font-size: var(--small-font-size);
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
