@@ -657,7 +657,7 @@ main {
   font-size: var(--small-font-size);
   padding: 1rem 2.5rem;
 }
-.about__text .about__title {
+.about__title {
   text-align: center;
   color: var(--container-color);
   font-family: var(--title-font);
