@@ -654,7 +654,7 @@ main {
   position: relative;
 
   font-family: var(--body-font);
-  font-size: var(--smaller-font-size);
+  font-size: var(--small-font-size);
   padding: 1rem 2.5rem;
 }
 .about__text .about__title {
@@ -668,7 +668,6 @@ main {
   margin-top: 1rem;
   margin-bottom: 1rem;
   line-height: 2;
-  font-style: italic;
 }
 .about__text p span {
   font-family: var(--title-font);
