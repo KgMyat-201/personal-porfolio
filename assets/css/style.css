@@ -670,7 +670,6 @@ font-size: var(--small-font-size);
 }
 .about__text p span {
   font-family: var(--title-font);
-  font-size: var(--h2-font-size);
 }
 .about__text .btn {
   text-align: center;
