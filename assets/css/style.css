@@ -194,6 +194,7 @@ main {
 */
 #back-to-top-btn{
   position: fixed;
+  display: none;
   z-index: 99;
   font-size: 26px;
   width: 50px;
