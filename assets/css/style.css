@@ -5,11 +5,11 @@
 :root {
   /* -----    Colors     ------ */
 
-  --container-color: #7c203a;
+  --container-color: #E33E5A;
 
-  --black: #fff;
-  --light-color: #ddd;
-  --bg-color: #222;
+  --light: #FFF;
+  --grey: #ddd;
+  --bg-color: #363940;
   --border: 0.1rem solid rgba(0, 0, 0, 0.4);
   --box-shadow: 0.4rem 0.4rem 1rem #111, -0.4rem -0.4rem 1rem #333;
   --box-shadow-inset: 0.4rem 0.4rem 1rem #111 inset,
@@ -37,8 +37,8 @@
 /* ===========  THEME  ========= */
 /* ===========  Variables Light Theme  ========= */
 .light-theme {
-  --black: #444;
-  --light-color: #777;
+  --light: #444;
+  --grey: #777;
   --bg-color: #e6e6e6;
   --border: 0.1rem solid rgba(0, 0, 0, 0.2);
   --box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
@@ -91,7 +91,7 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   border-radius: 50px;
   border: var(--border);
-  background: var(--black);
+  background: var(--light);
 }
 body,
 button,
@@ -104,7 +104,7 @@ body {
   line-height: 1.5rem;
   font-family: var(--body-font);
   background-color: var(--bg-color);
-  color: var(--black);
+  color: var(--light);
   font-weight: var(--font-medium);
 }
 ul {
@@ -113,7 +113,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--light);
 }
 h1,
 h2,
@@ -192,6 +192,24 @@ main {
 /* 
 
 */
+#back-to-top-btn{
+  position: fixed;
+  z-index: 99;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s ease-in-out;
+  transition-property: var(--bg-color);
+  background: transparent;
+  color: var(--light);
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus{
+  color: var(--container-color);
+}
 /* ===============   Header Section Start   ================= */
 
 .header {
@@ -364,7 +382,7 @@ main {
 }
 .scroll-down span {
   font-size: var(--small-font-size);
-  color: var(--light-color);
+  color: var(--grey);
 }
 .mouse-wrapper {
   display: block;
@@ -388,7 +406,7 @@ main {
   box-shadow: var(--box-shadow);
 }
 .mouse .wheel {
-  background-color: var(--black);
+  background-color: var(--light);
   border-radius: 50%;
   width: 0.25rem;
   height: 0.5rem;
@@ -434,7 +452,7 @@ main {
 
   background: transparent;
   border-radius: 2rem 0 0 2rem;
-  color: var(--black);
+  color: var(--light);
   border: var(--border);
   box-shadow: var(--box-shadow);
   cursor: pointer;
@@ -534,7 +552,7 @@ main {
   display: flex;
   font-size: var(--small-font-size);
   justify-content: space-between;
-  color: var(--black);
+  color: var(--light);
 }
 
 .about__container .left .progress-left .left-bar {
@@ -544,7 +562,7 @@ main {
   border-radius: 5rem;
   margin: 0 auto;
   border: var(--border);
-  background-color: var(--light-color);
+  background-color: var(--grey);
 }
 
 .about__container .left .progress-left .left-bar span {
@@ -604,7 +622,7 @@ main {
   display: flex;
   font-size: var(--small-font-size);
   justify-content: space-between;
-  color: var(--black);
+  color: var(--light);
 }
 
 .about__container .right .progress-right .right-bar {
@@ -614,7 +632,7 @@ main {
   border-radius: 5rem;
   margin: 0 auto;
   border: var(--border);
-  background-color: var(--light-color);
+  background-color: var(--grey);
 }
 
 .about__container .right .progress-right .right-bar span {
@@ -680,7 +698,7 @@ font-size: var(--small-font-size);
 .btn__cv {
   border-radius: 20px 20px;
   padding: 5px 10px;
-  color: var(--black);
+  color: var(--light);
   font-size: var(--small-font-size);
   cursor: pointer;
   box-shadow: var(--box-shadow);
@@ -795,7 +813,7 @@ font-size: var(--small-font-size);
   margin: 0 0.75rem;
   cursor: pointer;
   white-space: nowrap;
-  color: var(--black);
+  color: var(--light);
   transition: 0.3s;
 }
 
@@ -940,7 +958,7 @@ box-sizing: border-box;
   width: 100%;
   margin: 8px 0;
 padding: 8px;
-  color: var(--black);
+  color: var(--light);
   background-color: transparent;
   box-shadow: var(--box-shadow);
   border-radius: 5px;
@@ -954,7 +972,7 @@ padding: 8px;
 }
 .contactForm .button-area button {
   margin: 10px;
-  color: var(--black);
+  color: var(--light);
   padding: 10px 10px;
   font-size: var(--small-font-size);
   background-color: transparent;
@@ -979,7 +997,7 @@ footer {
   margin-bottom: 2px;
   border: var(--border);
   padding: 5px 10px;
-  color: var(--black);
+  color: var(--light);
 
   font-size: var(--small-font-size);
   box-shadow: var(--box-shadow);
