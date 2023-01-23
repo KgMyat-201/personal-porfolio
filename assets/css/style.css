@@ -1111,10 +1111,16 @@ footer span a:hover {
   .portfolio-img {
     width: 150px;
   }
+ #back-to-top-btn {
+ bottom: 40px;
+ }
 }
 @media screen and (max-width: 360px) {
   .nav__menu {
     left: 15px;
     padding: 0rem 2.5rem;
   }
+ #back-to-top-btn {
+ bottom: 40px;
+ }
 }
